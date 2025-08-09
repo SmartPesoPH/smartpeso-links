@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Smart Peso PH - Your daily dose of money tips, side hustles, and smart financial moves.">
+    <title>Smart Peso PH - Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b3d2e;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+        img.logo {
+            width: 120px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        h1 {
+            margin: 15px 0 5px;
+        }
+        p.tagline {
+            font-size: 1.1em;
+            margin-bottom: 25px;
+        }
+        a.button {
+            display: block;
+            background: #1abc9c;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-size: 1.1em;
+            transition: background 0.3s ease;
+        }
+        a.button:hover {
+            background: #16a085;
+        }
+        .quote {
+            margin-top: 30px;
+            font-style: italic;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Smart Peso PH Logo" class="logo">
+        <h1>Smart Peso PH</h1>
+        <p class="tagline">Your Daily Dose of Money Tips & Side Hustles</p>
+
+        <a href="https://facebook.com/SmartPesoPH" class="button">📘 Facebook</a>
+        <a href="https://instagram.com/SmartPesoPH" class="button">📸 Instagram</a>
+        <a href="https://youtube.com/@SmartPesoPH" class="button">▶️ YouTube</a>
+        <a href="https://tiktok.com/@SmartPesoPH" class="button">🎵 TikTok</a>
+        <a href="mailto:phsmartpeso@gmail.com" class="button">✉️ Email Us</a>
+
+        <p class="quote">"A peso saved is a peso earned."</p>
+        <p class="quote">"Small steps lead to big financial wins."</p>
+    </div>
+</body>
+</html>
