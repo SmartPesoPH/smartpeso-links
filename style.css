@@ -1,0 +1,30 @@
+
+:root{
+  --green: #176342;
+  --lightgreen: #2f8b59;
+  --gold: #d4af37;
+  --bg: #ffffff;
+  --muted: #666666;
+}
+*{box-sizing:border-box}
+body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#111; background:var(--bg); line-height:1.5}
+.site-header .inner{display:flex;align-items:center;justify-content:space-between;max-width:1100px;margin:0 auto;padding:18px}
+.logo{height:56px}
+.socials a{margin-left:12px;text-decoration:none;color:var(--green);font-weight:600}
+.hero{position:relative;text-align:center;overflow:hidden}
+.banner{width:100%;height:auto;display:block;filter:brightness(0.6) saturate(0.9)}
+.hero-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;padding:20px;width:90%;max-width:1000px}
+.hero-text h1{font-size:48px;margin:0;letter-spacing:2px}
+.tagline{font-size:20px;margin:10px 0 20px}
+.bio{max-width:800px;margin:0 auto 20px;font-size:18px;color:rgba(255,255,255,0.95)}
+.cta{display:inline-block;background:var(--green);color:#fff;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:700}
+.container{max-width:1100px;margin:40px auto;padding:0 20px}
+#articles h2{text-align:center;font-size:28px;margin-bottom:20px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.card{background:#fafafa;padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(17,17,17,0.06)}
+.card h3{margin-top:0}
+.site-footer{text-align:center;color:var(--muted);padding:40px 20px;border-top:1px solid #eee}
+@media(max-width:600px){
+  .hero-text h1{font-size:34px}
+  .logo{height:46px}
+}
